@@ -6,4 +6,4 @@ COPY . .
 
 EXPOSE 5555
 
-CMD["dotnet", "DotnetCoreWebApi.dll"]
+CMD ["dotnet", "DotnetCoreWebApi.dll"]
