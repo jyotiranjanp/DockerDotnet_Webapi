@@ -4,6 +4,6 @@ WORKDIR /mydotnetapp
 
 COPY . . 
 
-EXPOSE 5555
+EXPOSE 5000
 
 CMD ["dotnet", "DotnetCoreWebApi.dll"]
